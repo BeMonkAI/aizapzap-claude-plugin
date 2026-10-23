@@ -64,9 +64,23 @@ Na JetBrains (IntelliJ, PyCharm, WebStorm...), o plugin do Claude Code roda o Cl
 
 Instalou num lugar, vale nos outros: o plugin instalado para você (escopo de usuário) aparece no app do Claude, no VS Code e no terminal do mesmo computador.
 
+## No claude.ai ou no app do Claude, como conector (sem instalar plugin)
+
+Para usar numa conversa normal do Claude, no navegador ou no app, sem a aba Code. Assim você tem as ferramentas do AIZapZap, mas não os comandos `/aizapzap:configurar` e o guia de ajuda do plugin: é só pedir em português.
+
+1. Abra **Configurações › Conectores** (https://claude.ai/settings/connectors) e clique em **Adicionar conector personalizado**.
+2. Dê o nome **AIZapZap**, cole este endereço e clique em **Adicionar**:
+
+   ```
+   https://tlcpebxdioeyzrjdtyes.supabase.co/functions/v1/mcp
+   ```
+
+3. Clique em **Conectar**. No navegador, entre na sua conta AIZapZap e, na tela que mostra **Claude (app/claude.ai)**, clique em **Permitir**. Só aprove se foi você que clicou em Conectar agora.
+4. Numa conversa nova, ligue o AIZapZap no botão de ferramentas e peça: "Configure minha conta AIZapZap passo a passo".
+
 ## A tela "Permitir acesso"
 
-Ao fazer o login, aparece a tela "Permitir acesso à sua conta AIZapZap?". Ela mostra quem pede o acesso, a sua conta, os seus estabelecimentos e para onde o acesso volta (sempre o seu próprio computador, `localhost`). Se essa tela aparecer sem você ter pedido, não clique em Permitir.
+Ao fazer o login, aparece a tela "Permitir acesso à sua conta AIZapZap?". Ela mostra quem pede o acesso, a sua conta, os seus estabelecimentos e para onde o acesso volta: o seu próprio computador (`localhost`), no Claude Code, ou o Claude (`claude.ai`), no conector. Qualquer outro destino é recusado. Se essa tela aparecer sem você ter pedido, não clique em Permitir: um link mandado por outra pessoa entregaria o acesso à conta Claude dela.
 
 O acesso fica salvo e é renovado sozinho.
 
@@ -112,7 +126,7 @@ Antes de cada alteração, o Claude Code pede a sua permissão. Toda alteração
 
 ## Desinstalar e revogar o acesso
 
-1. No Claude Code (app, VS Code ou terminal): `/mcp`, escolha **aizapzap** e **Clear authentication**.
+1. No Claude Code (app, VS Code ou terminal): `/mcp`, escolha **aizapzap** e **Clear authentication**. No conector do claude.ai: **Configurações › Conectores**, abra o AIZapZap e remova.
 2. Remova o plugin:
 
    ```
