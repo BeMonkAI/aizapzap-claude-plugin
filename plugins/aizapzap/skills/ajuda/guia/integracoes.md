@@ -19,10 +19,10 @@ Aqui ficam o Google Agenda e o passo a passo para usar o AIZapZap pelo Claude. N
 - **Por que não vejo profissionais?** Só aparecem os ativos. Sem eles a tela orienta a cadastrar na aba Agenda.
 - **O que é a privacidade da agenda Google?** No Perfil você escolhe se o evento mostra só "Atendimento padrão" ou mais detalhes do cliente.
 - **Marca local tem integrações?** O Google Agenda não, porque não há agenda. O cartão do Claude aparece para todos.
-- **Como conecto o Claude?** No cartão do Claude, escolha onde você usa o Claude: **App do Claude** (aba Code, o mais fácil), **VS Code** ou **Terminal ou JetBrains**. Em todos: adicione o plugin, faça login com `/mcp` (clique em Permitir no navegador) e rode `/aizapzap:configurar`.
+- **Como conecto o Claude?** No cartão do Claude, escolha onde você usa o Claude: **App do Claude** (aba Code, o mais fácil), **VS Code** ou **Terminal ou JetBrains**. Em todos: adicione o plugin, faça login com `/mcp` (clique em Permitir no navegador) e rode `/aizapzap:configurar`. Sem instalar nada, também dá para usar numa conversa normal do claude.ai: aba **Conector (claude.ai)**, em Configurações › Conectores › Adicionar conector personalizado, com o endereço mostrado no cartão; na tela de acesso, que mostra Claude (app/claude.ai), só aprove se foi você que clicou em Conectar.
 
 ## Pelo Claude
 Só pelo painel.
 
 ## English
-Integrations offers the step-by-step to use AIZapZap from Claude Code (all businesses) and Google Calendar, connected per team member, with two-way sync and respect for manual blocks. It is a Pro feature and is shown to businesses that use scheduling. When authorizing on Google, check all permission boxes.
+Integrations offers the step-by-step to use AIZapZap from Claude Code or as a claude.ai custom connector (all businesses) and Google Calendar, connected per team member, with two-way sync and respect for manual blocks. It is a Pro feature and is shown to businesses that use scheduling. When authorizing on Google, check all permission boxes.
