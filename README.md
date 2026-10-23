@@ -5,11 +5,43 @@ Plugin para configurar e administrar sua conta [AIZapZap](https://aizapzap.com.b
 ## O que você precisa
 
 - Uma conta no AIZapZap com um estabelecimento criado (https://aizapzap.com.br).
-- O Claude Code instalado. Veja como instalar em https://docs.claude.com/en/docs/claude-code/setup.
+- Um destes: o app do Claude no computador (recomendado), o VS Code com a extensão Claude Code, ou o Claude Code no terminal (também é o caminho na JetBrains).
 
-## Instalação (uma vez só)
+O passo a passo também está no painel do AIZapZap, em Integrações, no cartão "Administre sua conta com o Claude", com botão de copiar cada comando.
 
-1. Abra o Claude Code no terminal:
+## No app do Claude (recomendado)
+
+1. Instale o app do Claude no computador (https://claude.com/download), abra a aba **Code** e comece uma sessão local. Pode escolher qualquer pasta.
+2. No campo de mensagem, cole e envie:
+
+   ```
+   /plugin marketplace add BeMonkAI/aizapzap-claude-plugin
+   ```
+
+3. Depois cole e envie:
+
+   ```
+   /plugin install aizapzap@aizapzap
+   ```
+
+   O plugin passa a aparecer em **+ › Plugins**, onde dá para ligar, desligar ou remover.
+4. Faça o login na sua conta: envie `/mcp`, escolha **aizapzap** e entre. O navegador abre o AIZapZap: entre com o seu e-mail e senha de sempre (ou com o Google) e clique em **Permitir**.
+5. Comece com `/aizapzap:configurar`.
+
+## No VS Code
+
+1. Instale a extensão **Claude Code** no VS Code e abra o painel do Claude.
+2. No campo de mensagem, digite `/plugins`. Abre a tela de plugins.
+3. Na aba **Marketplaces**, adicione `BeMonkAI/aizapzap-claude-plugin`.
+4. Na aba **Plugins**, procure **aizapzap**, clique em **Install** e escolha **Install for you**. Não precisa reiniciar.
+5. Faça o login: digite `/mcp`, escolha **aizapzap** e **Manage OAuth authentication**, entre na conta e clique em **Permitir**. Se o login não concluir pelo painel, abra o terminal integrado do VS Code e siga o passo 4 da seção do terminal abaixo; o login vale para os dois.
+6. Comece com `/aizapzap:configurar`.
+
+## No terminal ou na JetBrains
+
+Na JetBrains (IntelliJ, PyCharm, WebStorm...), o plugin do Claude Code roda o Claude Code no terminal da IDE, então os passos são estes. Instale o Claude Code antes (https://docs.claude.com/en/docs/claude-code/setup).
+
+1. Abra o Claude Code:
 
    ```
    claude
@@ -21,20 +53,22 @@ Plugin para configurar e administrar sua conta [AIZapZap](https://aizapzap.com.b
    /plugin marketplace add BeMonkAI/aizapzap-claude-plugin
    ```
 
-3. Instale o plugin:
+3. Instale o plugin e reinicie o Claude Code (feche e abra de novo):
 
    ```
    /plugin install aizapzap@aizapzap
    ```
 
-4. Reinicie o Claude Code (feche e abra de novo) para o plugin carregar.
+4. Login: digite `/mcp`, escolha **aizapzap** e depois **Authenticate**. No navegador, entre na conta e clique em **Permitir**.
+5. Comece com `/aizapzap:configurar`.
 
-## Primeiro acesso: login na sua conta
+Instalou num lugar, vale nos outros: o plugin instalado para você (escopo de usuário) aparece no app do Claude, no VS Code e no terminal do mesmo computador.
 
-1. No Claude Code, digite `/mcp`, escolha **aizapzap** e depois **Authenticate**.
-2. O navegador abre o AIZapZap. Entre com o seu e-mail e senha de sempre (ou com o Google).
-3. Aparece a tela "Permitir acesso à sua conta AIZapZap?" mostrando quem pede o acesso, a sua conta e os seus estabelecimentos. Confira e clique em **Permitir**.
-4. Pronto: volte para o Claude Code. O acesso fica salvo e é renovado sozinho.
+## A tela "Permitir acesso"
+
+Ao fazer o login, aparece a tela "Permitir acesso à sua conta AIZapZap?". Ela mostra quem pede o acesso, a sua conta, os seus estabelecimentos e para onde o acesso volta (sempre o seu próprio computador, `localhost`). Se essa tela aparecer sem você ter pedido, não clique em Permitir.
+
+O acesso fica salvo e é renovado sozinho.
 
 ## Como usar
 
@@ -78,7 +112,7 @@ Antes de cada alteração, o Claude Code pede a sua permissão. Toda alteração
 
 ## Desinstalar e revogar o acesso
 
-1. No Claude Code: `/mcp`, escolha **aizapzap** e **Clear authentication**.
+1. No Claude Code (app, VS Code ou terminal): `/mcp`, escolha **aizapzap** e **Clear authentication**.
 2. Remova o plugin:
 
    ```

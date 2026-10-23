@@ -19,7 +19,7 @@ Aqui ficam o Google Agenda e o passo a passo para usar o AIZapZap pelo Claude. N
 - **Por que não vejo profissionais?** Só aparecem os ativos. Sem eles a tela orienta a cadastrar na aba Agenda.
 - **O que é a privacidade da agenda Google?** No Perfil você escolhe se o evento mostra só "Atendimento padrão" ou mais detalhes do cliente.
 - **Marca local tem integrações?** O Google Agenda não, porque não há agenda. O cartão do Claude aparece para todos.
-- **Como conecto o Claude?** No cartão do Claude: instale o Claude Code, adicione o plugin, faça login com `/mcp` (clique em Permitir no navegador) e rode `/aizapzap:configurar`.
+- **Como conecto o Claude?** No cartão do Claude, escolha onde você usa o Claude: **App do Claude** (aba Code, o mais fácil), **VS Code** ou **Terminal ou JetBrains**. Em todos: adicione o plugin, faça login com `/mcp` (clique em Permitir no navegador) e rode `/aizapzap:configurar`.
 
 ## Pelo Claude
 Só pelo painel.
