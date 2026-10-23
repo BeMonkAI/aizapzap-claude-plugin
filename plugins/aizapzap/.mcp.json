@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "aizapzap": {
+      "type": "http",
+      "url": "${AIZAPZAP_MCP_URL:-https://tlcpebxdioeyzrjdtyes.supabase.co/functions/v1/mcp}"
+    }
+  }
+}

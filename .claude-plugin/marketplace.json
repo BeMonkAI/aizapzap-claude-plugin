@@ -1,0 +1,16 @@
+{
+  "name": "aizapzap",
+  "owner": {
+    "name": "MonkAI"
+  },
+  "metadata": {
+    "description": "Plugins oficiais do AIZapZap para o Claude Code"
+  },
+  "plugins": [
+    {
+      "name": "aizapzap",
+      "source": "./plugins/aizapzap",
+      "description": "Configure e administre sua conta AIZapZap conversando com o Claude: perfil, horários, cardápio, agentes de IA, equipe e serviços, com guia passo a passo e ajuda."
+    }
+  ]
+}
