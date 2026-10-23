@@ -5,7 +5,7 @@ Plugin para configurar e administrar sua conta [AIZapZap](https://aizapzap.com.b
 ## O que você precisa
 
 - Uma conta no AIZapZap com um estabelecimento criado (https://aizapzap.com.br).
-- Um destes: o app do Claude no computador (recomendado), o VS Code com a extensão Claude Code, ou o Claude Code no terminal (também é o caminho na JetBrains).
+- Um destes: o app do Claude no computador (recomendado), o chat do Claude (claude.ai, app ou celular) como conector, o VS Code com a extensão Claude Code, ou o Claude Code no terminal (também é o caminho na JetBrains).
 
 O passo a passo também está no painel do AIZapZap, em Integrações, no cartão "Administre sua conta com o Claude", com botão de copiar cada comando.
 
@@ -75,12 +75,15 @@ Para usar numa conversa normal do Claude, no navegador ou no app, sem a aba Code
    https://tlcpebxdioeyzrjdtyes.supabase.co/functions/v1/mcp
    ```
 
-3. Clique em **Conectar**. No navegador, entre na sua conta AIZapZap e, na tela que mostra **Claude (app/claude.ai)**, clique em **Permitir**. Só aprove se foi você que clicou em Conectar agora.
-4. Numa conversa nova, ligue o AIZapZap no botão de ferramentas e peça: "Configure minha conta AIZapZap passo a passo".
+3. No painel do AIZapZap, vá em **Integrações**, no cartão "Administre sua conta com o Claude", aba **Conector (claude.ai)**, e clique em **Enviar código para meu e-mail**. O código vale por 10 minutos e só pode ser usado uma vez.
+4. Volte ao Claude e clique em **Conectar**. No navegador, entre na sua conta AIZapZap e, na tela que mostra **Claude (app/claude.ai)**, digite o código do e-mail e clique em **Permitir**. Só aprove se foi você que clicou em Conectar agora.
+5. Numa conversa nova, ligue o AIZapZap no botão de ferramentas e peça: "Configure minha conta AIZapZap passo a passo".
+
+Por que o código: sem ele, alguém poderia começar uma conexão na conta Claude dele e te mandar o link para você aprovar. Com o código, só funciona se foi você que pediu no seu painel. **Nunca passe esse código para ninguém.** Em contas Team ou Enterprise do Claude, quem adiciona o conector é o administrador da organização.
 
 ## A tela "Permitir acesso"
 
-Ao fazer o login, aparece a tela "Permitir acesso à sua conta AIZapZap?". Ela mostra quem pede o acesso, a sua conta, os seus estabelecimentos e para onde o acesso volta: o seu próprio computador (`localhost`), no Claude Code, ou o Claude (`claude.ai`), no conector. Qualquer outro destino é recusado. Se essa tela aparecer sem você ter pedido, não clique em Permitir: um link mandado por outra pessoa entregaria o acesso à conta Claude dela.
+Ao fazer o login, aparece a tela "Permitir acesso à sua conta AIZapZap?". Ela mostra quem pede o acesso, a sua conta, os seus estabelecimentos e para onde o acesso volta: o seu próprio computador (`localhost`), no Claude Code, ou o Claude (`claude.ai`), no conector, que também pede o código enviado ao seu e-mail. Qualquer outro destino é recusado. Se essa tela aparecer sem você ter pedido, não clique em Permitir: um link mandado por outra pessoa entregaria o acesso à conta Claude dela.
 
 O acesso fica salvo e é renovado sozinho.
 
