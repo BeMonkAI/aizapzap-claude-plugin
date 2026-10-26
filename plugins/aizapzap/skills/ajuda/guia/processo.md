@@ -15,7 +15,9 @@ Define o jeito padrão de trabalhar da agência: as etapas de cada entrega, as p
 
 ## Dúvidas comuns
 - **Já vem algo preenchido?** Sim. O padrão traz 7 etapas (Briefing, Planejamento, Aprovação da pauta, Produção, Revisão interna, Aprovação do cliente e Publicação), 6 perguntas de briefing e 6 materiais comuns. Ajuste do seu jeito.
-- **A IA já sabe o andamento dos projetos?** Ainda não. Nesta versão a IA não conhece o status do projeto, as respostas do briefing nem as aprovações de arte. Quando o cliente pergunta, ela diz que a equipe vai verificar. Isso chega em versões futuras.
+- **A IA já sabe o andamento dos projetos?** Sim, para os responsáveis cadastrados em Marcas (plano pago). A IA conta a etapa atual, as próximas datas e a situação de cada arte, manda o link do item e registra no painel quando o cliente aprova ou pede ajuste. Rascunhos ela não mostra. Para quem não é responsável de marca, ela diz que a equipe vai verificar.
+- **Onde ficam as respostas do briefing?** Em cada marca, na página Marcas. Aqui você define só as perguntas.
+- **Para que servem as rodadas e os alertas?** As rodadas limitam os ajustes por arte; o pedido além delas espera a sua decisão na Gestão. A antecedência define quando um post aparece "Em risco" na Gestão.
 - **Por que a tela pede plano?** A vertical agência é só do plano pago (ou do teste ativo). Sem isso a página não abre.
 - **Por que não consigo salvar?** Confira os limites: etapas de 1 a 20 e sem repetição, textos preenchidos, rodadas de 0 a 20, horas de 1 a 720 e e-mail válido.
 - **A página não carregou, e agora?** Use "Tentar novamente". O painel não deixa editar nesse caso, para não apagar o que já estava salvo.
@@ -24,4 +26,4 @@ Define o jeito padrão de trabalhar da agência: as etapas de cada entrega, as p
 Só pelo painel.
 
 ## English
-Process is for marketing agencies on a paid plan or active trial. It defines the delivery stages, briefing questions, client materials, included change rounds, alert lead time and alert email. The AI does not yet know project status, briefing answers or art approvals.
+Process is for marketing agencies on a paid plan or active trial. It defines the delivery stages, briefing questions, client materials, included change rounds, alert lead time and alert email. Briefing answers are filled per brand in Brands. For brand contacts on a paid plan, the WhatsApp AI shares project and art status and records approvals and change requests.

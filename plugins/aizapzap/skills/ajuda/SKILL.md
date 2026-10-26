@@ -1,6 +1,6 @@
 ---
 name: ajuda
-description: Tira dúvidas sobre o AIZapZap (telas do painel, agentes de IA, cardápio, agenda, pedidos, fidelidade, campanhas, WhatsApp, plano) e investiga por que a IA respondeu ou não respondeu algo. Use quando o usuário perguntar como algo funciona no AIZapZap, onde fica uma opção ou por que a IA agiu de certo jeito.
+description: Tira dúvidas sobre o AIZapZap (telas do painel, agentes de IA, cardápio, agenda, pedidos, fidelidade, campanhas, WhatsApp, plano, e na agência de marketing: marcas, cronograma, artes, aprovação e ajustes) e investiga por que a IA respondeu ou não respondeu algo. Use quando o usuário perguntar como algo funciona no AIZapZap, onde fica uma opção ou por que a IA agiu de certo jeito.
 ---
 
 # Ajuda do AIZapZap
