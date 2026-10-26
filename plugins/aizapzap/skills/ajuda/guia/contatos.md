@@ -17,11 +17,12 @@ Uma empresa cliente da agência costuma ter mais de uma pessoa falando com você
 - **E se o número for inválido?** O painel avisa "Número inválido. Use DDD + número." e não salva.
 - **Posso repetir um número?** Não. Se o número já estiver cadastrado, o painel avisa "Esse número já está cadastrado".
 - **A lixeira pede confirmação?** Não, a remoção é imediata.
-- **A IA já responde sobre o projeto do cliente?** Ainda não. Ela reconhece quem está falando, mas nesta versão não conhece o status do projeto, as respostas do briefing nem as aprovações de arte. Ela diz que a equipe vai verificar.
+- **A IA já responde sobre o projeto do cliente?** Sim, para os responsáveis cadastrados em Marcas (plano pago). A IA conta a etapa atual, as próximas datas e a situação de cada arte, manda o link do item e registra no painel quando o cliente aprova ou pede ajuste. Rascunhos ela não mostra. Para quem não é responsável de marca, ela diz que a equipe vai verificar.
+- **Como ligo a pessoa a uma marca?** Na página Marcas, em "Responsáveis". A marca passa a aparecer na ficha do cliente.
 - **Por que a lista não aparece?** Se der erro ao carregar, o painel mostra "Tentar novamente" em vez de uma lista vazia, para você não cadastrar de novo números que já existem.
 
 ## Pelo Claude
 Só pelo painel.
 
 ## English
-Client contacts lets an agency register several WhatsApp numbers per client, in the client's detail view. The AI recognizes the client by any of them, and a duplicate number is refused. The AI does not yet know project status, briefing answers or art approvals.
+Client contacts lets an agency register several WhatsApp numbers per client, in the client's detail view. The AI recognizes the client by any of them, and a duplicate number is refused. To link a person to a brand, use Brands > Responsáveis; brand contacts get project and art status from the AI and can approve or request changes over WhatsApp.

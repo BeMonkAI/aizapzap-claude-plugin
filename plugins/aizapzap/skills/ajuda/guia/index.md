@@ -14,6 +14,8 @@ Todas as telas do menu, com o link e um resumo. Base: https://aizapzap.com.br
 - [Fidelidade](fidelidade.md): regra de pontos, saldos e resgates. https://aizapzap.com.br/dashboard/loyalty
 - [Influenciadores](influenciadores.md): códigos, links e resultados por influenciador. https://aizapzap.com.br/dashboard/influencers
 - [Minha marca](minha-marca.md): kit de marca e artes prontas para postar. https://aizapzap.com.br/dashboard/brand
+- [Gestão](gestao.md): cronograma do mês, artes, envio para aprovação, kanban e cards de ajuste da agência. https://aizapzap.com.br/dashboard/gestao
+- [Marcas](marcas.md): marcas atendidas pela agência, responsáveis, kit, briefing e documentos. https://aizapzap.com.br/dashboard/brands
 - [Processo](processo.md): etapas, briefing, materiais, ajustes e alertas da agência. https://aizapzap.com.br/dashboard/process
 - [Campanhas](campanhas.md): mensagens em massa para quem aceitou novidades. https://aizapzap.com.br/dashboard/campaigns
 - [Agentes IA](agentes.md): funções da IA, jeito de falar e limites. https://aizapzap.com.br/dashboard/agents
@@ -22,4 +24,4 @@ Todas as telas do menu, com o link e um resumo. Base: https://aizapzap.com.br
 - [Integrações](integracoes.md): Google Agenda por profissional. https://aizapzap.com.br/dashboard/integrations
 - [Configurações](configuracoes.md): equipe da conta, preferências, assinatura e senha. https://aizapzap.com.br/dashboard/settings
 
-Quem vê o quê: Fila só no restaurante. Processo e Contatos do cliente só na agência de marketing (Processo exige plano pago ou teste ativo). Pedidos no restaurante e na marca local. Agenda no barbearia, profissional autônomo e creator, e Reservas no restaurante que aceita reservas. As demais telas aparecem para todos.
+Quem vê o quê: Fila só no restaurante. Gestão, Marcas, Processo e Contatos do cliente só na agência de marketing (Gestão, Marcas e Processo exigem plano pago ou teste ativo). Instagram só nos planos Negócio e Rede. Pedidos no restaurante e na marca local. Agenda no barbearia, profissional autônomo e creator, e Reservas no restaurante que aceita reservas. As demais telas aparecem para todos. No menu, as telas exclusivas do seu tipo de negócio ficam num grupo destacado, "Exclusivas · <tipo de negócio>".

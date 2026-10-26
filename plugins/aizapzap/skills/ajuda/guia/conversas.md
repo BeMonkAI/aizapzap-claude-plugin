@@ -15,6 +15,8 @@ Mostra os atendimentos feitos pela IA: quantos contatos, quantas mensagens, de o
 ## Dúvidas comuns
 - **O que é "Aguardando você"?** A IA passou a conversa para você. Há um filtro só para essas conversas.
 - **O que faz "Estou atendendo este cliente"?** Pausa a IA para aquele contato por 2 horas e tira a marca de "Aguardando você".
+- **Quem respondeu cada mensagem?** Cada resposta mostra o nome da função da IA que respondeu, com os mesmos nomes da página Agentes IA (por exemplo, Recepção, Tira dúvidas, Agenda horários, Passa pra você).
+- **Por que um atendimento ficou Finalizado?** O cliente ficou sem mandar mensagem pelo tempo definido na página WhatsApp (padrão 2 horas). A próxima mensagem dele abre um atendimento novo.
 - **O que é "Chat de Teste" no canal?** São as conversas feitas no teste da página de agentes.
 - **Para que servem os gráficos?** Mostram volume por dia, tipos de atendimento e canais de origem.
 - **A exportação não funciona.** Os botões ficam desabilitados quando não há atendimentos no filtro atual.

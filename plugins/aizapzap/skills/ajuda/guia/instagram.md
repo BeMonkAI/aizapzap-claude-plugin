@@ -1,6 +1,6 @@
 # Instagram
 Link: https://aizapzap.com.br/dashboard/instagram
-Para quem: todos.
+Para quem: todos os tipos de negócio, nos planos Negócio e Rede.
 
 ## Para que serve
 Conecta o Instagram do negócio para a IA responder as mensagens do Direct. A IA usa as mesmas configurações da página WhatsApp: nome do atendente, tom e horários.

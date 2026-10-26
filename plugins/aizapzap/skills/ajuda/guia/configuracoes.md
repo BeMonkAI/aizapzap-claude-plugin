@@ -16,6 +16,8 @@ Reúne equipe da conta, preferências, assinatura e segurança. Há quatro abas:
 - **Como convidar alguém?** O convite por e-mail não funciona. A pessoa precisa criar uma conta primeiro, e você cola o ID de usuário dela.
 - **Posso me remover?** Não, o painel recusa remover a si mesmo.
 - **Quais planos existem?** Solo, Negócio e Rede, com valores e limites de equipe e mensagens mostrados na tela. A cobrança anual tem desconto (20%). Enterprise é sob consulta.
+- **Quanto custa a mensagem além do plano?** Depende do plano: R$ 0,39 no Solo (200 mensagens por mês), R$ 0,29 no Negócio (2.000) e R$ 0,22 na Rede (4.000). Os créditos comprados são gastos nesse valor.
+- **Em que idioma o painel abre?** Na primeira visita, no idioma do navegador (português ou inglês). Depois vale o que você escolher.
 - **Como funciona o teste gratuito?** Enquanto ele vale, a tela mostra a data em que termina.
 - **Qual o mínimo da senha?** 6 caracteres, e a confirmação precisa ser igual.
 - **Lembretes automáticos?** Quando ligados, enviam avisos por WhatsApp antes do atendimento, de 15 minutos até 48 horas antes.

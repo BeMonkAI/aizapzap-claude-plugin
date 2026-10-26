@@ -18,6 +18,7 @@ Fala com o suporte da MonkAI. Você abre chamados, vê respostas e consulta perg
 - **O que o Suporte Inteligente faz?** Você descreve o problema, ele analisa suas configurações e sugere melhorias que você pode aplicar com um clique, ou cria um chamado.
 - **O que ele consegue mexer?** Só ajustes limitados, como comportamento da IA no WhatsApp, ligar ou desligar funções, itens do catálogo, profissionais e tipos de atendimento.
 - **O que ajuda a resolver mais rápido?** Informar o provedor de WhatsApp, os passos para repetir o problema e desde quando ocorre.
+- **Apareceu "Aguarde 1 minuto".** O Suporte Inteligente aceita até 5 perguntas por minuto. Espere um minuto e pergunte de novo.
 - **Funciona no modo demonstração?** Não, o envio fica desabilitado.
 
 ## Pelo Claude
