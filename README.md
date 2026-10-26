@@ -127,6 +127,19 @@ Reservas, agendamentos e pedidos podem ser consultados pelo Claude, mas criar ou
 
 Antes de cada alteração, o Claude Code pede a sua permissão. Toda alteração feita por aqui fica registrada na sua conta.
 
+## Atualizar o plugin
+
+O guia e os comandos do plugin melhoram com o tempo. O Claude Code não atualiza este plugin sozinho, a não ser que você ative:
+
+- **Atualização automática (recomendado):** rode `/plugin`, abra a aba **Marketplaces**, escolha **aizapzap** e clique em **Enable auto-update**.
+- **Atualizar agora:** no terminal, rode o comando abaixo e abra uma sessão nova do Claude Code (ou rode `/reload-plugins`).
+
+  ```
+  claude plugin update aizapzap@aizapzap
+  ```
+
+No conector do claude.ai não há nada a fazer: ele já usa sempre a versão mais nova.
+
 ## Desinstalar e revogar o acesso
 
 1. No Claude Code (app, VS Code ou terminal): `/mcp`, escolha **aizapzap** e **Clear authentication**. No conector do claude.ai: **Configurações › Conectores**, abra o AIZapZap e remova.
