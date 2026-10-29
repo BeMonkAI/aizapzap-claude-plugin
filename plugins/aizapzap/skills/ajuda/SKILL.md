@@ -21,7 +21,8 @@ Quando a pergunta for sobre a conta dele ("por que a IA não respondeu o João?"
 2. `status_da_conta` para ver o que está faltando (WhatsApp desconectado, agentes desligados, limite do plano).
 3. `ver_conversas`, filtrando pelo cliente quando possível (`listar_clientes` com a busca), para ler o que aconteceu.
 4. `ver_agentes` quando a dúvida for sobre o comportamento da IA.
-5. Explique a causa provável em poucas linhas e o que fazer. Se der para resolver com as ferramentas, ofereça (por exemplo, ligar um agente ou ajustar o estilo). Se for algo só do painel, dê o link.
+5. Agência de marketing perguntando o andamento ("como está o cronograma da Pizzaria X?", "o que está com o cliente?"): `listar_marcas` para achar a marca, depois `ver_cronograma` (marca e mês, AAAA-MM), `listar_artes` (por marca ou status; "com o cliente" é o status `pendente`) ou `listar_ajustes`.
+6. Explique a causa provável em poucas linhas e o que fazer. Se der para resolver com as ferramentas, ofereça (por exemplo, ligar um agente ou ajustar o estilo). Se for algo só do painel, dê o link.
 
 ## Abrir chamado (bug ou melhoria)
 

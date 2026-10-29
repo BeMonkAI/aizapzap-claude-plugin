@@ -14,7 +14,7 @@ Todas as telas do menu, com o link e um resumo. Base: https://aizapzap.com.br
 - [Fidelidade](fidelidade.md): regra de pontos, saldos e resgates. https://aizapzap.com.br/dashboard/loyalty
 - [Influenciadores](influenciadores.md): códigos, links e resultados por influenciador. https://aizapzap.com.br/dashboard/influencers
 - [Minha marca](minha-marca.md): kit de marca e artes prontas para postar. https://aizapzap.com.br/dashboard/brand
-- [Gestão](gestao.md): cronograma do mês, artes, envio para aprovação, kanban e cards de ajuste da agência. https://aizapzap.com.br/dashboard/gestao
+- [Gestão](gestao.md): cronograma do mês, artes, envio para aprovação, kanban e cards de ajuste da agência; o andamento também dá para consultar pelo Claude. https://aizapzap.com.br/dashboard/gestao
 - [Marcas](marcas.md): marcas atendidas pela agência, responsáveis, kit, briefing e documentos. https://aizapzap.com.br/dashboard/brands
 - [Processo](processo.md): etapas, briefing, materiais, ajustes e alertas da agência. https://aizapzap.com.br/dashboard/process
 - [Campanhas](campanhas.md): mensagens em massa para quem aceitou novidades. https://aizapzap.com.br/dashboard/campaigns

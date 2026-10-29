@@ -26,7 +26,7 @@ Para quem: só agência de marketing. Exige plano pago ou período de teste ativ
 - **Por que aparece "O cronograma deste mês ainda não foi aprovado pelo cliente"?** Envie o cronograma para aprovação antes das artes. Mudar datas ou posts de um cronograma já enviado o devolve para rascunho.
 
 ## Pelo Claude
-Só pelo painel.
+Dá para consultar o andamento, só leitura: em que pé está o cronograma de uma marca num mês (etapa atual, datas por etapa, posts e a arte de cada um), quais artes estão com o cliente ou em outro status, e os ajustes pedidos que ainda estão abertos, incluindo os fora do combinado. Criar cronograma, subir ou gerar arte, enviar para aprovação e marcar como publicada continuam só pelo painel.
 
 ## English
-Gestão is the agency's monthly workspace: overview, calendar and an automatic kanban across all active brands. Per brand you plan the month's posts, generate art from the brand kit (1 art credit each, text edits free) or upload your own, and send each item for approval over WhatsApp. Clients approve or request changes in the chat; change requests become cards, and requests beyond the agreed rounds wait for the agency to accept or refuse.
+Gestão is the agency's monthly workspace: overview, calendar and an automatic kanban across all active brands. Per brand you plan the month's posts, generate art from the brand kit (1 art credit each, text edits free) or upload your own, and send each item for approval over WhatsApp. Clients approve or request changes in the chat; change requests become cards, and requests beyond the agreed rounds wait for the agency to accept or refuse. Through Claude you can read the progress (a brand's schedule for a month, arts by status, open change requests); every change stays in the dashboard.
