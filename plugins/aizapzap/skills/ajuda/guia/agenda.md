@@ -1,6 +1,6 @@
 # Agenda (Reservas para restaurante)
 Link: https://aizapzap.com.br/dashboard/schedule (restaurante: https://aizapzap.com.br/dashboard/reservations)
-Para quem: barbearia, profissional autônomo e creator (Agenda). Restaurante vê "Reservas" só se "Aceitar reservas" estiver ligado no Perfil. Marca local não tem agenda.
+Para quem: salão / estúdio wellness / box de CrossFit, profissional autônomo e creator (Agenda). Aulas em grupo ficam na tela [Aulas](aulas.md). Restaurante vê "Reservas" só se "Aceitar reservas" estiver ligado no Perfil. Marca local não tem agenda.
 
 ## Para que serve
 Agenda: acompanha os atendimentos marcados pela IA ou por você, e cuida de equipe, tipos de atendimento, regras de agendamento e locais. Reservas (restaurante): lista as reservas de mesa e deixa confirmar, sentar ou cancelar.

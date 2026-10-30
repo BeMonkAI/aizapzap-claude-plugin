@@ -9,7 +9,7 @@ Lista os clientes do negócio com visitas, tempo sem visita, total gasto e se ac
 1. Use a busca para achar por nome, telefone ou e-mail.
 2. Ordene por nome, visitas, tempo sem visita, total gasto ou data de cadastro.
 3. Filtre por tempo sem atendimento (menos de 30 dias, 30 a 90, mais de 90, sem atendimentos) ou por consentimento de novidades.
-4. Clique em "Novo Cliente" e preencha nome (obrigatório) e telefone. Campos extras variam por tipo: nascimento na barbearia, endereço de entrega na marca local.
+4. Clique em "Novo Cliente" e preencha nome (obrigatório) e telefone. Campos extras variam por tipo: nascimento no salão / estúdio / box, endereço de entrega na marca local.
 5. Para trazer vários de uma vez, clique em "Importar" e confirme a relação entre as colunas e os campos.
 6. Clique na linha de um cliente para ver a ficha e enviar arquivos.
 

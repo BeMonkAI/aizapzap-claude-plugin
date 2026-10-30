@@ -1,6 +1,6 @@
 # Cardápio / Serviços / Mídia kit / Catálogo
 Link: https://aizapzap.com.br/dashboard/knowledge
-Para quem: todos. O nome da aba muda: Cardápio (restaurante), Serviços (barbearia e profissional autônomo), Mídia kit (creator) e Catálogo (marca local e demais).
+Para quem: todos. O nome da aba muda: Cardápio (restaurante), Serviços (salão / estúdio / box e profissional autônomo), Mídia kit (creator) e Catálogo (marca local e demais).
 
 ## Para que serve
 É o que a IA sabe para responder: pratos, serviços, produtos, formatos e perguntas frequentes. O que você cadastra aqui é o que a IA mostra, explica e cota para o cliente.
