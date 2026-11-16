@@ -102,6 +102,7 @@ O acesso fica salvo e é renovado sozinho.
   - "Adiciona no cardápio: pizza margherita, R$ 45."
   - "Deixa a IA mais formal e com respostas mais curtas."
   - "Liga o agente de agendamento."
+  - "Importa meus clientes desta planilha do meu sistema antigo."
 
 - Para tirar dúvidas, também é só perguntar. Exemplos:
   - "Como funciona a fidelidade?"
