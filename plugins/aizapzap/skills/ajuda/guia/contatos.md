@@ -6,7 +6,7 @@ Para quem: só agência de marketing.
 Uma empresa cliente da agência costuma ter mais de uma pessoa falando com você. Em "Contatos do cliente", na ficha de cada cliente, você cadastra vários números de WhatsApp. A IA reconhece o cliente por qualquer um deles.
 
 ## Como usar
-1. Em Clientes, clique na linha do cliente para abrir a ficha.
+1. No CRM, clique na linha do cliente para abrir a ficha.
 2. Veja a lista de contatos já cadastrados (nome e número).
 3. Para adicionar, preencha o nome do contato (opcional, até 80 caracteres) e o WhatsApp com DDD, por exemplo (11) 99999-8888.
 4. Clique em "Adicionar contato".

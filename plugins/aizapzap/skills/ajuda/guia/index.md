@@ -3,7 +3,7 @@ Todas as telas do menu, com o link e um resumo. Base: https://aizapzap.com.br
 
 - [Dashboard (Início)](inicio.md): resumo do dia, uso de mensagens e gráficos. https://aizapzap.com.br/dashboard
 - [Perfil do Estabelecimento](perfil.md): dados do negócio, horários, entrega, políticas e tipo de negócio. https://aizapzap.com.br/dashboard/profile
-- [Clientes](clientes.md): lista, ficha, importação e consentimento de novidades. https://aizapzap.com.br/dashboard/customers
+- [CRM](crm.md): clientes em lista e em quadro por etapa, etiquetas, ficha, importação, consentimento de novidades e rotinas de mensagens automáticas. https://aizapzap.com.br/dashboard/customers
 - [Contatos do cliente](contatos.md): vários números de WhatsApp por cliente da agência, na ficha do cliente. https://aizapzap.com.br/dashboard/customers
 - [Cardápio / Serviços / Mídia kit / Catálogo](catalogo.md): o que a IA sabe e pode vender. https://aizapzap.com.br/dashboard/knowledge
 - [WhatsApp](whatsapp.md): conexão, escalonamento e comportamento da IA. https://aizapzap.com.br/dashboard/whatsapp
