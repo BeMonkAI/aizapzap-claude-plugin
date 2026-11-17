@@ -20,6 +20,7 @@ Envia mensagens de campanha para clientes que aceitaram receber novidades. Você
 - **A campanha pausou sozinha.** Motivos mostrados na tela: WhatsApp desconectado, muitas falhas, limite do mês atingido ou termo não aceito.
 - **Limite de mensagens?** Há uma cota mensal de mensagens de campanha por plano, com pacote avulso para comprar.
 - **E-mail?** Leva link de descadastro, e quem sai para de receber em todos os canais.
+- **Apareceu uma campanha que eu não criei, com nome e data.** É uma rotina do CRM que rodou. Cada vez que uma rotina roda, ela vira uma campanha aqui, com o nome da rotina e a data. Se ela pausar, retome ou cancele aqui. Para mudar a rotina, vá em CRM, aba "Rotinas" ([crm.md](crm.md)).
 
 ## Pelo Claude
 Só pelo painel.
