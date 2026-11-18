@@ -8,7 +8,7 @@ Reúne os clientes do negócio. No menu, esta tela se chamava "Clientes" e agora
 - **Quadro:** uma coluna para cada etapa e um cartão para cada cliente, com nome, último contato, número de atendimentos e etiquetas. Serve para acompanhar em que pé está cada cliente.
 - **Rotinas:** mensagens que saem sozinhas pelo WhatsApp, no dia e hora que você escolher, para os clientes que se encaixam no público. Por exemplo: toda segunda, para quem não volta há 30 dias.
 
-Ao clicar em um cliente, na lista ou no quadro, abre a ficha com histórico e arquivos.
+Ao clicar em um cliente, na lista ou no quadro, abre a ficha com histórico, cobranças e arquivos. Na aba "Cobranças" da ficha você cobra um valor avulso pelo WhatsApp, com Pix: veja [Cobranças](cobrancas.md).
 
 ## Como usar
 1. Use a busca para achar por nome, telefone, CPF ou e-mail.

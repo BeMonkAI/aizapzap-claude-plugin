@@ -13,6 +13,7 @@ Reúne os dados do negócio que a IA usa para atender: nome, telefone, bio, ende
 5. Marque os horários de funcionamento por dia.
 6. Em "Mais opções", ajuste o horário da IA, as políticas de cancelamento e faltas, e as notificações.
 7. Clique em "Salvar Alterações".
+8. No fim da página, o cartão "Dados de recebimento" (titular, CPF/CNPJ, chaves Pix e nomes na fatura do cartão) tem o próprio botão "Salvar". Esses dados vão nas cobranças aos clientes e nas aulas pagas e servem para conferir os comprovantes. Veja [Cobranças](cobrancas.md).
 
 ## Dúvidas comuns
 - **O que muda ao trocar o tipo de negócio?** As páginas do painel e o atendimento da IA mudam na hora. Pedidos em aberto, fila de espera e reservas futuras que o novo tipo não usa são cancelados, sem aviso aos clientes. Há uma tela de confirmação antes.
@@ -23,7 +24,7 @@ Reúne os dados do negócio que a IA usa para atender: nome, telefone, bio, ende
 - **Telefones e e-mails de administradores?** Em "Notificações" você cadastra quem recebe os avisos. O telefone vai no formato +5511999999999.
 
 ## Pelo Claude
-ver_perfil, atualizar_perfil e atualizar_horario. Trocar o tipo de negócio: só pelo painel.
+ver_perfil, atualizar_perfil e atualizar_horario. Trocar o tipo de negócio e mudar os dados de recebimento: só pelo painel.
 
 ## English
-Business Profile holds the data the AI relies on: name, phone, bio, address, hours, delivery and pickup, policies and notifications. Changing the business type happens here and cancels open items the new type does not use.
+Business Profile holds the data the AI relies on: name, phone, bio, address, hours, delivery and pickup, policies and notifications. Changing the business type happens here and cancels open items the new type does not use. The "Dados de recebimento" card at the bottom (account holder, CPF/CNPJ, Pix keys, card statement names) has its own Save button and feeds customer charges and paid classes, for every business type; Claude cannot change it.

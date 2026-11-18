@@ -23,6 +23,7 @@ Monta a grade de aulas em grupo (por exemplo Hot Yoga, Pilates ou o WOD do box) 
 - **Uma pessoa pode pegar duas vagas na mesma aula?** Não, é uma vaga por número de WhatsApp.
 - **Como paro uma aula que não vai mais acontecer?** Em "Grades", use "Desativar aula": as próximas datas sem inscritos saem da agenda; as que já têm alunos continuam. Dá para reativar depois.
 - **A aula ocupa a agenda do instrutor?** Sim. No horário da aula, a IA não marca atendimento individual com ele.
+- **Onde ficam o titular e as chaves Pix das aulas pagas?** No Perfil do Estabelecimento, cartão "Dados de recebimento", junto das cobranças aos clientes. Na tela Aulas ficou só o atalho "Abrir o Perfil".
 - **Aula já começou, por que não consigo editar?** Aula que já começou fica fechada para edição, cancelamento e inscrições.
 
 ## Pelo Claude
