@@ -27,7 +27,15 @@ Monta a grade de aulas em grupo (por exemplo Hot Yoga, Pilates ou o WOD do box) 
 - **Aula já começou, por que não consigo editar?** Aula que já começou fica fechada para edição, cancelamento e inscrições.
 
 ## Pelo Claude
-Só pelo painel.
+O Claude pode consultar as aulas com a ferramenta listar_aulas. Peça, por exemplo: "Quais aulas tenho esta semana?", "Quantas vagas livres tem a aula de amanhã?", "Quem está na fila do Hot Yoga de sexta?" ou "Quem precisa confirmar vaga hoje?".
+- Funciona por período: você diz o dia de início e o dia de fim.
+- Traz até 200 aulas por vez. Se o período tiver mais, o Claude avisa e você pede um período menor.
+- Mostra as grades (nome, dias, horário, duração, vagas, instrutor e se está ativa).
+- Para cada aula mostra as vagas ocupadas e livres, quem está inscrito e a fila de espera em ordem de chegada, com a posição de cada um.
+- Mostra também as vagas oferecidas, com o horário limite para confirmar e se o aviso não chegou ao aluno.
+- Só existe no tipo de negócio "Salão / Estúdio Wellness / Box de CrossFit". Nos outros tipos o Claude avisa que não se aplica.
+
+O resto é só pelo painel. O Claude não inscreve nem remove aluno, não cancela aula, não muda as vagas, não cria nem desativa grade, não confirma pagamento de aula paga e não muda os dados de recebimento (titular e chave Pix).
 
 ## English
-Classes lets a salon, wellness studio or CrossFit box run recurring group classes with a set number of spots. The AI enrolls students on WhatsApp until the class is full, then adds them to a first come, first served waitlist and tells them their position. When someone drops out, the first in line gets the spot and must confirm within the deadline you set (5 to 1440 minutes, default 30). "Notice not sent" means the offer did not reach the student, usually because of WhatsApp's 24 hour window; you get an alert. Only for the "Salon / Wellness Studio / CrossFit Box" business type.
+Classes lets a salon, wellness studio or CrossFit box run recurring group classes with a set number of spots. The AI enrolls students on WhatsApp until the class is full, then adds them to a first come, first served waitlist and tells them their position. When someone drops out, the first in line gets the spot and must confirm within the deadline you set (5 to 1440 minutes, default 30). "Notice not sent" means the offer did not reach the student, usually because of WhatsApp's 24 hour window; you get an alert. Only for the "Salon / Wellness Studio / CrossFit Box" business type. Claude can list classes for a date range (listar_aulas: series, seats taken and free, enrolled students, waitlist in order, open offers with deadline; up to 200 classes per call) but cannot enroll or remove students, cancel classes, change spots, edit series, confirm payments, nor change the payment receiver data.
