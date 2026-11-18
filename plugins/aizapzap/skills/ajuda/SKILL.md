@@ -1,6 +1,6 @@
 ---
 name: ajuda
-description: Tira dúvidas sobre o AIZapZap (telas do painel, CRM, etapas e rotinas de mensagens dos clientes, cobranças por Pix e comprovantes, agentes de IA, cardápio, agenda, pedidos, fidelidade, campanhas, WhatsApp, plano, e na agência de marketing: marcas, cronograma, artes, aprovação e ajustes), investiga por que a IA respondeu ou não respondeu algo e abre chamado de bug ou sugestão de melhoria para o time do AIZapZap. Use quando o usuário perguntar como algo funciona no AIZapZap, onde fica uma opção, por que a IA agiu de certo jeito, ou quiser relatar um problema ou sugerir uma melhoria.
+description: Tira dúvidas sobre o AIZapZap (telas do painel, CRM, etapas e rotinas de mensagens dos clientes, cobranças por Pix, lembretes de cobrança e comprovantes, agentes de IA, cardápio, agenda, pedidos, fidelidade, campanhas, WhatsApp, plano, e na agência de marketing: marcas, cronograma, artes, aprovação e ajustes), investiga por que a IA respondeu ou não respondeu algo e abre chamado de bug ou sugestão de melhoria para o time do AIZapZap. Use quando o usuário perguntar como algo funciona no AIZapZap, onde fica uma opção, por que a IA agiu de certo jeito, ou quiser relatar um problema ou sugerir uma melhoria.
 ---
 
 # Ajuda do AIZapZap
@@ -22,7 +22,8 @@ Quando a pergunta for sobre a conta dele ("por que a IA não respondeu o João?"
 3. `ver_conversas`, filtrando pelo cliente quando possível (`listar_clientes` com a busca), para ler o que aconteceu.
 4. `ver_agentes` quando a dúvida for sobre o comportamento da IA.
 5. Agência de marketing perguntando o andamento ("como está o cronograma da Pizzaria X?", "o que está com o cliente?"): `listar_marcas` para achar a marca, depois `ver_cronograma` (marca e mês, AAAA-MM), `listar_artes` (por marca ou status; "com o cliente" é o status `pendente`) ou `listar_ajustes`.
-6. Explique a causa provável em poucas linhas e o que fazer. Se der para resolver com as ferramentas, ofereça (por exemplo, ligar um agente ou ajustar o estilo). Se for algo só do painel, dê o link.
+6. Pergunta sobre cobranças de clientes ("quem está devendo?", "quantos lembretes a Maria recebeu?"): `listar_cobrancas`, com a situação e a busca pelo nome. O motivo de um lembrete não ter saído só aparece no painel, na ficha do cliente: dê o link.
+7. Explique a causa provável em poucas linhas e o que fazer. Se der para resolver com as ferramentas, ofereça (por exemplo, ligar um agente ou ajustar o estilo). Se for algo só do painel, dê o link.
 
 ## Abrir chamado (bug ou melhoria)
 
