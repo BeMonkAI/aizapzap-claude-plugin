@@ -1,28 +1,27 @@
-# Contatos do cliente
+# Responsável pela marca (ficha do cliente)
 Link: https://aizapzap.com.br/dashboard/customers (abra a ficha do cliente)
 Para quem: só agência de marketing.
 
 ## Para que serve
-Uma empresa cliente da agência costuma ter mais de uma pessoa falando com você. Em "Contatos do cliente", na ficha de cada cliente, você cadastra vários números de WhatsApp. A IA reconhece o cliente por qualquer um deles.
+Uma marca atendida pela agência costuma ter mais de uma pessoa falando com você. Cada pessoa é um cliente comum no CRM, com o próprio nome e WhatsApp. Na ficha dela, o campo "Responsável pela marca" diz por qual marca ela fala. A IA conta o andamento da marca só para essas pessoas.
 
 ## Como usar
-1. No CRM, clique na linha do cliente para abrir a ficha.
-2. Veja a lista de contatos já cadastrados (nome e número).
-3. Para adicionar, preencha o nome do contato (opcional, até 80 caracteres) e o WhatsApp com DDD, por exemplo (11) 99999-8888.
-4. Clique em "Adicionar contato".
-5. Para tirar um número, use a lixeira ao lado dele.
+1. Cadastre cada pessoa no CRM, com nome e WhatsApp com DDD. Para várias de uma vez, use "Importar".
+2. No CRM, clique na pessoa para abrir a ficha.
+3. Em "Responsável pela marca", escolha a marca. Salva na hora.
+4. Para desligar a pessoa da marca, escolha "Sem marca".
+
+Também dá para fazer pelo outro lado: na página Marcas, em "Responsáveis por <marca>".
 
 ## Dúvidas comuns
-- **O número precisa do 55?** Não. Com DDD (10 ou 11 dígitos) o painel acrescenta o 55 sozinho. Números com 12 a 15 dígitos entram como foram digitados.
-- **E se o número for inválido?** O painel avisa "Número inválido. Use DDD + número." e não salva.
-- **Posso repetir um número?** Não. Se o número já estiver cadastrado, o painel avisa "Esse número já está cadastrado".
-- **A lixeira pede confirmação?** Não, a remoção é imediata.
-- **A IA já responde sobre o projeto do cliente?** Sim, para os responsáveis cadastrados em Marcas (plano pago). A IA conta a etapa atual, as próximas datas e a situação de cada arte, manda o link do item e registra no painel quando o cliente aprova ou pede ajuste. Rascunhos ela não mostra. Para quem não é responsável de marca, ela diz que a equipe vai verificar.
-- **Como ligo a pessoa a uma marca?** Na página Marcas, em "Responsáveis". A marca passa a aparecer na ficha do cliente.
-- **Por que a lista não aparece?** Se der erro ao carregar, o painel mostra "Tentar novamente" em vez de uma lista vazia, para você não cadastrar de novo números que já existem.
+- **Uma pessoa pode responder por duas marcas?** Não. Cada pessoa fica em uma marca só.
+- **A marca tem três pessoas. Cadastro três clientes?** Sim. Um cliente para cada pessoa, todos com a mesma marca.
+- **E o 9º dígito do celular?** Pode cadastrar com ou sem. Quando a pessoa manda mensagem, o AIZapZap guarda o número do jeito que o WhatsApp mostra.
+- **A IA já responde sobre o projeto da marca?** Sim, para os responsáveis da marca (plano pago ou teste ativo). A IA conta a etapa atual, as próximas datas e a situação de cada arte, manda o link do item e registra no painel quando a pessoa aprova ou pede ajuste. Rascunhos ela não mostra. Para quem não é responsável de marca, a IA não recebe o andamento de nenhuma marca.
+- **Antes havia "Contatos do cliente", com vários números na mesma ficha. Cadê?** Saiu. Agora cada número é uma pessoa no CRM, ligada à marca.
 
 ## Pelo Claude
-Só pelo painel.
+O Claude pode cadastrar as pessoas como clientes (nome e telefone). Ligar a pessoa a uma marca é só pelo painel.
 
 ## English
-Client contacts lets an agency register several WhatsApp numbers per client, in the client's detail view. The AI recognizes the client by any of them, and a duplicate number is refused. To link a person to a brand, use Brands > Responsáveis; brand contacts get project and art status from the AI and can approve or request changes over WhatsApp.
+In an agency account, each person who speaks for a client brand is a regular customer in the CRM. The "Answers for brand" field in the customer's detail view (or "Responsáveis" on the Brands page) links that person to one brand; each person can belong to only one. The AI shares a brand's progress, sends links and records approvals and change requests only with those people (paid plan or active trial). The old "Client contacts" list with several numbers per customer no longer exists. Claude can save the people as customers; linking them to a brand stays in the dashboard.
