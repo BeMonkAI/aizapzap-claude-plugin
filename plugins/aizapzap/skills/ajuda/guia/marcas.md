@@ -22,7 +22,7 @@ Cadastro de cada marca que a agência atende e das pessoas que falam por ela. Ca
 - **Por que a arte da marca sai genérica?** Sem logo não dá para gerar arte; sem paleta ela usa cores neutras; com briefing incompleto ela pode sair genérica. Complete o kit e o briefing aqui.
 
 ## Pelo Claude
-Só pelo painel.
+Dá para listar as marcas ativas e ver quantos responsáveis cada uma tem (sem nome nem telefone). Marca com zero responsáveis não recebe nada pelo WhatsApp. Cadastrar, editar, arquivar e escolher responsáveis continuam só pelo painel.
 
 ## English
-Brands is the agency's client register. Each brand has its own kit, briefing and documents (up to 25 MB each), plus the people who speak for it. Each person belongs to one brand, and those people are who the WhatsApp AI updates on progress and whose approvals and change requests it records.
+Brands is the agency's client register. Each brand has its own kit, briefing and documents (up to 25 MB each), plus the people who speak for it. Each person belongs to one brand, and those people are who the WhatsApp AI updates on progress and whose approvals and change requests it records. Through Claude you can list active brands with how many people each has; editing stays in the dashboard.

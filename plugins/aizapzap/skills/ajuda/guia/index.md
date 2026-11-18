@@ -5,7 +5,7 @@ Todas as telas do menu, com o link e um resumo. Base: https://aizapzap.com.br
 - [Perfil do Estabelecimento](perfil.md): dados do negócio, horários, entrega, políticas e tipo de negócio. https://aizapzap.com.br/dashboard/profile
 - [CRM](crm.md): clientes em lista e em quadro por etapa, etiquetas, ficha, importação, consentimento de novidades e rotinas de mensagens automáticas. https://aizapzap.com.br/dashboard/customers
 - [Cobranças](cobrancas.md): cobrança avulsa por Pix pelo WhatsApp, na ficha do cliente, aba "Cobranças"; baixa à mão ou pelo comprovante (Negócio e Rede). Dados de recebimento no Perfil. https://aizapzap.com.br/dashboard/customers
-- [Contatos do cliente](contatos.md): vários números de WhatsApp por cliente da agência, na ficha do cliente. https://aizapzap.com.br/dashboard/customers
+- [Responsável pela marca](contatos.md): na agência, cada pessoa que fala por uma marca é um cliente do CRM ligado a ela, na ficha do cliente. https://aizapzap.com.br/dashboard/customers
 - [Cardápio / Serviços / Mídia kit / Catálogo](catalogo.md): o que a IA sabe e pode vender. https://aizapzap.com.br/dashboard/knowledge
 - [WhatsApp](whatsapp.md): conexão, escalonamento e comportamento da IA. https://aizapzap.com.br/dashboard/whatsapp
 - [Instagram](instagram.md): conectar o Direct para a IA responder. https://aizapzap.com.br/dashboard/instagram
@@ -16,7 +16,7 @@ Todas as telas do menu, com o link e um resumo. Base: https://aizapzap.com.br
 - [Fidelidade](fidelidade.md): regra de pontos, saldos e resgates. https://aizapzap.com.br/dashboard/loyalty
 - [Influenciadores](influenciadores.md): códigos, links e resultados por influenciador. https://aizapzap.com.br/dashboard/influencers
 - [Minha marca](minha-marca.md): kit de marca e artes prontas para postar. https://aizapzap.com.br/dashboard/brand
-- [Gestão](gestao.md): cronograma do mês, artes, envio para aprovação, kanban e cards de ajuste da agência. https://aizapzap.com.br/dashboard/gestao
+- [Gestão](gestao.md): cronograma do mês, artes, envio para aprovação, kanban e cards de ajuste da agência; o andamento também dá para consultar pelo Claude. https://aizapzap.com.br/dashboard/gestao
 - [Marcas](marcas.md): marcas atendidas pela agência, responsáveis, kit, briefing e documentos. https://aizapzap.com.br/dashboard/brands
 - [Processo](processo.md): etapas, briefing, materiais, ajustes e alertas da agência. https://aizapzap.com.br/dashboard/process
 - [Campanhas](campanhas.md): mensagens em massa para quem aceitou novidades. https://aizapzap.com.br/dashboard/campaigns
@@ -26,4 +26,4 @@ Todas as telas do menu, com o link e um resumo. Base: https://aizapzap.com.br
 - [Integrações](integracoes.md): Google Agenda por profissional. https://aizapzap.com.br/dashboard/integrations
 - [Configurações](configuracoes.md): equipe da conta, preferências, assinatura e senha. https://aizapzap.com.br/dashboard/settings
 
-Quem vê o quê: Fila só no restaurante. Gestão, Marcas, Processo e Contatos do cliente só na agência de marketing (Gestão, Marcas e Processo exigem plano pago ou teste ativo). Instagram só nos planos Negócio e Rede. Pedidos no restaurante e na marca local. Aulas só no salão / estúdio wellness / box de CrossFit. Agenda no salão / estúdio / box, profissional autônomo e creator, e Reservas no restaurante que aceita reservas. As demais telas aparecem para todos. No menu, as telas exclusivas do seu tipo de negócio ficam num grupo destacado, "Exclusivas · <tipo de negócio>".
+Quem vê o quê: Fila só no restaurante. Gestão, Marcas, Processo e Responsável pela marca só na agência de marketing (Gestão, Marcas e Processo exigem plano pago ou teste ativo). Instagram só nos planos Negócio e Rede. Pedidos no restaurante e na marca local. Aulas só no salão / estúdio wellness / box de CrossFit. Agenda no salão / estúdio / box, profissional autônomo e creator, e Reservas no restaurante que aceita reservas. As demais telas aparecem para todos. No menu, as telas exclusivas do seu tipo de negócio ficam num grupo destacado, "Exclusivas · <tipo de negócio>".
