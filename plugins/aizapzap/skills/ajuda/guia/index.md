@@ -3,12 +3,13 @@ Todas as telas do menu, com o link e um resumo. Base: https://aizapzap.com.br
 
 - [Dashboard (Início)](inicio.md): resumo do dia, uso de mensagens e gráficos. https://aizapzap.com.br/dashboard
 - [Perfil do Estabelecimento](perfil.md): dados do negócio, horários, entrega, políticas e tipo de negócio. https://aizapzap.com.br/dashboard/profile
-- [Clientes](clientes.md): lista, ficha, importação e consentimento de novidades. https://aizapzap.com.br/dashboard/customers
+- [CRM](crm.md): clientes em lista e em quadro por etapa, etiquetas, ficha, importação, consentimento de novidades e rotinas de mensagens automáticas. https://aizapzap.com.br/dashboard/customers
 - [Contatos do cliente](contatos.md): vários números de WhatsApp por cliente da agência, na ficha do cliente. https://aizapzap.com.br/dashboard/customers
 - [Cardápio / Serviços / Mídia kit / Catálogo](catalogo.md): o que a IA sabe e pode vender. https://aizapzap.com.br/dashboard/knowledge
 - [WhatsApp](whatsapp.md): conexão, escalonamento e comportamento da IA. https://aizapzap.com.br/dashboard/whatsapp
 - [Instagram](instagram.md): conectar o Direct para a IA responder. https://aizapzap.com.br/dashboard/instagram
 - [Agenda e Reservas](agenda.md): horários, equipe, tipos de atendimento e reservas de mesa. https://aizapzap.com.br/dashboard/schedule e https://aizapzap.com.br/dashboard/reservations
+- [Aulas](aulas.md): grade de aulas em grupo com vagas, fila de espera e confirmação de vaga. https://aizapzap.com.br/dashboard/classes
 - [Fila](fila.md): fila de espera de mesas do restaurante. https://aizapzap.com.br/dashboard/waitlist
 - [Pedidos](pedidos.md): pedidos fechados pela IA e andamento de cada um. https://aizapzap.com.br/dashboard/orders
 - [Fidelidade](fidelidade.md): regra de pontos, saldos e resgates. https://aizapzap.com.br/dashboard/loyalty
@@ -24,4 +25,4 @@ Todas as telas do menu, com o link e um resumo. Base: https://aizapzap.com.br
 - [Integrações](integracoes.md): Google Agenda por profissional. https://aizapzap.com.br/dashboard/integrations
 - [Configurações](configuracoes.md): equipe da conta, preferências, assinatura e senha. https://aizapzap.com.br/dashboard/settings
 
-Quem vê o quê: Fila só no restaurante. Gestão, Marcas, Processo e Contatos do cliente só na agência de marketing (Gestão, Marcas e Processo exigem plano pago ou teste ativo). Instagram só nos planos Negócio e Rede. Pedidos no restaurante e na marca local. Agenda no barbearia, profissional autônomo e creator, e Reservas no restaurante que aceita reservas. As demais telas aparecem para todos. No menu, as telas exclusivas do seu tipo de negócio ficam num grupo destacado, "Exclusivas · <tipo de negócio>".
+Quem vê o quê: Fila só no restaurante. Gestão, Marcas, Processo e Contatos do cliente só na agência de marketing (Gestão, Marcas e Processo exigem plano pago ou teste ativo). Instagram só nos planos Negócio e Rede. Pedidos no restaurante e na marca local. Aulas só no salão / estúdio wellness / box de CrossFit. Agenda no salão / estúdio / box, profissional autônomo e creator, e Reservas no restaurante que aceita reservas. As demais telas aparecem para todos. No menu, as telas exclusivas do seu tipo de negócio ficam num grupo destacado, "Exclusivas · <tipo de negócio>".

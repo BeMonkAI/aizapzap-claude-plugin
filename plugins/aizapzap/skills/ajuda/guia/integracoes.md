@@ -1,6 +1,6 @@
 # Integrações
 Link: https://aizapzap.com.br/dashboard/integrations
-Para quem: todos. O Google Agenda aparece para restaurante, barbearia, profissional autônomo e creator; marca local vê um aviso de que ele não se aplica.
+Para quem: todos. O Google Agenda aparece para restaurante, salão / estúdio / box, profissional autônomo e creator; marca local vê um aviso de que ele não se aplica.
 
 ## Para que serve
 Aqui ficam o Google Agenda e o passo a passo para usar o AIZapZap pelo Claude. No Google Agenda, cada profissional da equipe conecta a própria conta Google, e os atendimentos dele aparecem na agenda Google. A IA respeita os bloqueios que você fizer lá.

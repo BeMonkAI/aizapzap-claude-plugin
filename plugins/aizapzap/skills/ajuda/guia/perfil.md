@@ -6,7 +6,7 @@ Para quem: todos. Algumas seções dependem do tipo: pedidos e entrega (restaura
 Reúne os dados do negócio que a IA usa para atender: nome, telefone, bio, endereço, horários e regras. Também é onde se troca o tipo de negócio e se definem os avisos que você recebe.
 
 ## Como usar
-1. Em "Tipo de Negócio", escolha o tipo certo (restaurante, barbearia, marca local, profissional autônomo, creator ou agência de marketing, esta só no plano pago ou no teste).
+1. Em "Tipo de Negócio", escolha o tipo certo (restaurante, salão / estúdio wellness / box de CrossFit, marca local, profissional autônomo, creator ou agência de marketing, esta só no plano pago ou no teste).
 2. Preencha nome, telefone e bio em "Informações Básicas".
 3. Informe endereço e, se entrega, a região atendida.
 4. Para restaurante e marca: ligue "Fazemos entrega" (com taxa) e/ou "Cliente pode retirar no local".

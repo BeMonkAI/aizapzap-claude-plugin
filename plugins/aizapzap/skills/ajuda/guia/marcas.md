@@ -7,14 +7,14 @@ Cadastro de cada marca que a agência atende e das pessoas que falam por ela. Ca
 
 ## Como usar
 1. Digite o nome da marca (por exemplo, Pizzaria X) e clique em "Criar".
-2. Abra a marca. Em "Responsáveis por <marca>", escolha um cliente sem marca e clique em "Adicionar". A pessoa precisa estar cadastrada antes em Clientes.
+2. Abra a marca. Em "Responsáveis por <marca>", escolha um cliente sem marca e clique em "Adicionar". A pessoa precisa estar cadastrada antes no CRM.
 3. Em "Kit da marca", envie o logo e defina cores, fonte e tom de voz. Clique em "Salvar kit".
 4. Em "Briefing", preencha as respostas do cliente (as marcadas com * são obrigatórias) e clique em "Salvar briefing".
 5. Em "Documentos do cliente", escolha a qual material o arquivo corresponde e clique em "Enviar arquivo". A lista "Ainda não chegou" mostra o que falta.
 6. Use "Renomear" ou "Arquivar" na lista de marcas. Marque "Mostrar arquivadas" para ver e reativar as arquivadas.
 
 ## Dúvidas comuns
-- **Uma pessoa pode responder por duas marcas?** Não. Cada pessoa fica em uma marca só. Se o seletor disser "Todos os clientes já têm marca", cadastre a pessoa em Clientes primeiro.
+- **Uma pessoa pode responder por duas marcas?** Não. Cada pessoa fica em uma marca só. Se o seletor disser "Todos os clientes já têm marca", cadastre a pessoa no CRM primeiro.
 - **O que aparece em "Briefing incompleto"?** Falta resposta em alguma pergunta obrigatória. As perguntas vêm da página Processo.
 - **Qual o limite dos documentos?** PDF, imagem ou zip de até 25 MB por arquivo.
 - **Arquivar apaga a marca?** Não. A marca some da lista e da Gestão, mas os dados ficam. O nome volta a ficar livre.
