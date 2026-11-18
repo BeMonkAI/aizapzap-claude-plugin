@@ -9,6 +9,8 @@ Depois de enviada, a cobrança lembra o cliente sozinha: 1 dia antes do vencimen
 
 Nos planos Negócio e Rede, o cliente manda a foto do comprovante na conversa e a cobrança recebe baixa sozinha. No plano Solo, você marca como paga.
 
+Também dá para cobrar uma resposta em vez de dinheiro: a arte de um fornecedor, a confirmação de que a mercadoria foi enviada, um documento assinado. Você escreve o que pede e que resposta espera, e a IA encerra sozinha quando o contato responde o que você esperava. Veja "Cobrar uma resposta". Vale para todos os planos.
+
 As cobranças ficam em dois lugares:
 - **Ficha do cliente, aba "Cobranças":** onde você cria, reenvia, dá baixa, cancela e para os lembretes.
 - **CRM, aba "Cobranças":** todas as cobranças do negócio numa lista só, com o total em aberto e o total vencido. Serve para acompanhar. Veja "Aba Cobranças do CRM".
@@ -24,7 +26,7 @@ Só a primeira chave Pix vai na mensagem ao cliente. As outras servem para confe
 
 ### Criar e enviar
 1. No CRM, clique no cliente para abrir a ficha e vá na aba "Cobranças".
-2. Clique em "Nova cobrança".
+2. Clique em "Nova cobrança". Em "O que você está cobrando?", deixe "Pagamento" (já vem marcado).
 3. Preencha "Valor (R$)" (de R$ 1,00 a R$ 100.000,00), "Vencimento" (vem com uma semana à frente) e "Descrição" (até 140 caracteres, por exemplo "Sessão de outubro"). Em atendimento de saúde, não descreva o procedimento: a descrição vai na mensagem.
 4. Clique em "Criar e enviar". A mensagem sai na hora pelo WhatsApp.
 
@@ -115,15 +117,53 @@ Para parar os lembretes de uma cobrança:
 
 Não dá para religar os lembretes de uma cobrança. Se quiser que voltem, cancele a cobrança e crie outra.
 
+### Cobrar uma resposta
+Serve para cobrar de um contato algo que não é dinheiro, normalmente de um fornecedor. Exemplos:
+- **Arte:** "Enviar a arte do cartaz", esperando "Diz que já enviou a arte".
+- **Envio da mercadoria:** "Confirmar o envio do pedido de tecidos", esperando "Diz que a mercadoria já foi despachada ou manda o código de rastreio".
+- **Documento para assinar:** "Devolver o contrato assinado", esperando "Diz que já assinou e enviou o contrato, por aqui ou por e-mail".
+
+Dica: cadastre o fornecedor em CRM com "Tipo de contato" igual a "Fornecedor". Ele recebe cobranças normalmente, mas fica fora das campanhas e do Quadro. Veja [CRM](crm.md).
+
+Para criar e enviar:
+1. Abra a ficha do contato, aba "Cobranças", e clique em "Nova cobrança".
+2. Em "O que você está cobrando?", marque "Uma resposta".
+3. Preencha "O que você pede" (até 200 caracteres), "Resposta esperada" (até 200 caracteres) e "Prazo". A resposta esperada é o que a IA usa para saber quando o contato respondeu. Escreva o que ele precisa dizer, não só o arquivo que ele vai mandar.
+4. Clique em "Criar e enviar". Não precisa dos dados de recebimento (titular e chave Pix).
+
+O contato recebe este texto:
+
+> Olá [nome do contato]! [nome do seu negócio] pede: "[o que você pede]". Prazo: [dia/mês]. Quando estiver pronto, é só responder por aqui.
+
+Depois, os lembretes saem como os da cobrança em dinheiro (1 dia antes do prazo, no dia, 3 e 7 dias depois, no máximo 4, das 9h às 18h), com este texto:
+
+> Olá [nome do contato]! Lembrete de [nome do seu negócio]: "[o que você pede]", prazo [dia/mês]. Quando estiver pronto, é só responder por aqui.
+
+O que a IA faz quando o contato responde:
+- **A resposta bate com a "Resposta esperada":** a IA agradece e marca a cobrança como "Respondida". Os lembretes param. Você recebe um aviso pelo WhatsApp (nos telefones de "Notificações" do Perfil e no contato de escalonamento) com o que foi pedido e a frase que a IA aceitou.
+- **A resposta não basta** (por exemplo "amanhã eu mando"): a IA responde lembrando o que falta e os lembretes continuam.
+- **O contato manda só um arquivo ou imagem, sem escrever nada:** não encerra. A IA pede para ele confirmar por escrito (por exemplo, se é a versão final).
+- Só conta o que o contato escreveu depois de você enviar a cobrança. Uma mensagem antiga não encerra.
+
+Na ficha, a cobrança aparece com o selo "Resposta", o que foi pedido, a "Resposta esperada" e a situação:
+- **Não enviada**, **Aguardando resposta**, **Vencida** (passou do prazo sem resposta), **Respondida** ou **Cancelada**.
+- Respondida mostra "respondida pela IA em dd/mm" ou "marcada como respondida por você em dd/mm" e, quando foi a IA, "O cliente disse: ..." com a frase aceita.
+
+Os botões são:
+- **"Reenviar"**, **"Cancelar"** e **"Parar lembretes"**, iguais aos da cobrança em dinheiro.
+- **"Marcar como respondida":** encerra à mão, por exemplo quando o fornecedor respondeu por telefone.
+- **"Reabrir":** aparece numa cobrança "Respondida". Use quando a IA encerrou e não devia. A cobrança volta a ficar em aberto, os lembretes que ainda cabem no prazo voltam, e só uma mensagem nova do contato encerra de novo.
+
 ### Aba Cobranças do CRM
 1. No CRM, clique na aba "Cobranças" (a quarta, depois de Lista, Quadro e Rotinas).
-2. No topo ficam dois totais:
+2. Escolha "Pagamentos" (começa nele) ou "Respostas" para ver as cobranças de resposta.
+3. No topo ficam dois totais, sempre dos pagamentos:
    - **"Em aberto":** a soma e a quantidade de todas as cobranças em aberto, enviadas ou não, vencidas ou não.
    - **"Vencido":** a soma e a quantidade das cobranças em aberto, já enviadas, com o vencimento antes de hoje.
-3. Escolha a situação nos botões "Em aberto" (começa nela), "Vencidas", "Não enviadas", "Pagas", "Canceladas" ou "Todas".
-4. Para achar um cliente, digite parte do nome em "Buscar cliente". A busca é só pelo nome.
-5. Cada linha mostra o cliente, o valor, a descrição, a data (vence, venceu ou pago em) e a situação. As mais recentes vêm primeiro, 50 por vez. Clique em "Ver mais" para trazer as próximas.
-6. Clique no nome do cliente para abrir a ficha dele já na aba "Cobranças". Lá você reenvia, dá baixa, cancela ou para os lembretes. A aba do CRM só mostra.
+4. Escolha a situação nos botões "Em aberto" (começa nela), "Vencidas", "Não enviadas", "Pagas" (em Respostas, "Respondidas"), "Canceladas" ou "Todas".
+5. Para achar um cliente, digite parte do nome ou do telefone em "Buscar cliente". O telefone é achado com ou sem o 9º dígito.
+6. Cada linha mostra o cliente, o valor ou o pedido, a data (vence, venceu, pago em ou prazo) e a situação. As mais recentes vêm primeiro, 50 por vez. Clique em "Ver mais" para trazer as próximas.
+7. Clique no nome do cliente para abrir a ficha dele já na aba "Cobranças". Lá você reenvia, dá baixa, cancela, reabre ou para os lembretes. A aba do CRM só mostra.
 
 No Quadro do CRM, o cartão do cliente mostra um selo:
 - **"Cobrança em aberto":** o cliente tem ao menos uma cobrança em aberto (inclusive uma ainda não enviada).
@@ -171,6 +211,12 @@ No Quadro do CRM, o cartão do cliente mostra um selo:
 
   Se não quiser lembrete numa delas, use "Parar lembretes".
 - **O cliente que respondeu SAIR ainda recebe a cobrança?** A cobrança, sim, se você enviar: o envio da cobrança não olha o pedido de SAIR. Os lembretes, não.
+- **Cobrar uma resposta gasta mensagens do plano?** Sim, como a cobrança em dinheiro: o envio e cada lembrete contam como uma mensagem. No WhatsApp não oficial, também entram no limite diário de envios.
+- **O fornecedor mandou a arte, mas a cobrança continua "Aguardando resposta".** Arquivo ou imagem sozinho não encerra. A IA pede para ele confirmar por escrito. Se você já conferiu, use "Marcar como respondida".
+- **A IA encerrou uma cobrança de resposta que não devia.** Abra a ficha, aba "Cobranças", e clique em "Reabrir". A frase aceita aparece em "O cliente disse", para você conferir o que ela entendeu. Escrever uma "Resposta esperada" mais clara ajuda nas próximas.
+- **Por que a IA não encerrou, se o contato respondeu certo?** Confira se a cobrança foi enviada antes da resposta, se a IA estava respondendo naquela conversa (conversa assumida por você, aguardando você, fora do horário ou em "só registro" deixam a IA calada) e se a resposta foi escrita (não só um arquivo). Nesses casos, use "Marcar como respondida".
+- **Posso mudar o que pedi ou a resposta esperada?** Não. Cancele e crie outra.
+- **Um contato pode receber, no mesmo dia, lembrete de pagamento e de resposta?** Sim. O limite de um lembrete por dia vale para cada tipo separado.
 
 ## Pelo Claude
 O Claude pode consultar as cobranças com a ferramenta listar_cobrancas. Peça, por exemplo: "Quais cobranças estão vencidas?", "Quanto tenho em aberto?" ou "Mostra as cobranças da Maria".
@@ -179,8 +225,9 @@ O Claude pode consultar as cobranças com a ferramenta listar_cobrancas. Peça, 
 - Traz até 50 por vez, das mais recentes para as mais antigas, e o total em aberto e o total vencido.
 - Cada cobrança vem com cliente, valor, descrição, vencimento, situação (inclusive "não enviada"), data de envio, data e forma de pagamento (manual ou comprovante) e quantos lembretes já saíram.
 - Nunca mostra a imagem do comprovante.
+- Mostra só as cobranças em dinheiro. As cobranças de resposta ficam só no painel.
 
 O resto é só pelo painel. O Claude não cria, não envia, não dá baixa, não cancela cobranças e não para lembretes, e também não muda os dados de recebimento (titular e chave Pix).
 
 ## English
-Charges lets any business bill a customer a one-off amount over WhatsApp with Pix, from the "Cobranças" tab of the customer's file in the CRM. First fill in the payment receiver card in the Business Profile (account holder, CPF/CNPJ, Pix keys and card statement names); only the first Pix key goes in the message. "Nova cobrança" asks for amount (R$ 1 to R$ 100,000), due date and description (up to 140 characters; health businesses must not describe the procedure), and "Criar e enviar" sends it at once. Statuses: not sent, awaiting payment, overdue, paid (by hand or by receipt) and cancelled; open charges can be resent, marked as paid or cancelled (the customer is not told). A charge stays "not sent" when the customer has no WhatsApp number, receiver data is missing, WhatsApp is disconnected, the monthly message quota is used up, or, on the official WhatsApp, the customer has not written in 24 hours while Meta still reviews the message model (a new message from the customer opens the window). Limits: 30 charges per hour per business and 5 per customer in 24 hours. On the Negócio and Rede plans, a receipt image sent in the chat settles the charge after checking receiver, amount (not lower), date (not before the charge, not in the future) and reuse; "Paid by someone else" is accepted but flagged, and "Undo settlement" reopens it. On Solo the owner marks it paid. The AI knows the open charges, never confirms a payment itself and does not negotiate. Every sent charge reminds the customer automatically 1 day before the due date, on the due date, and 3 and 7 days after (at most 4, only between 9am and 6pm in the business time zone, the first at least 12 hours after the charge was sent; a missed slot is not sent late in bulk). The text says "is due tomorrow", "is due today" or "was due on ... and is still open", with the plan's last sentence; outside the official WhatsApp 24-hour window a Meta-approved reminder message model is used (submitted automatically on the first charge sent through the official WhatsApp; until approved that reminder is skipped, never replaced by the charge text). No reminders for customers who replied SAIR, nor for paid, cancelled or stopped charges; at most one reminder per customer per day, up to 20 per business per round; each reminder counts as one plan message and, on the unofficial WhatsApp, in the daily sending limit shared with campaigns. The customer file shows "Lembretes: X de 4, próximo em dd/mm" and the reason a reminder was skipped; "Parar lembretes" stops them for good (to restart, cancel and create a new charge). Charges open and sent on release day (18/11/2026) got the remaining slots: not yet due = all remaining, 0 to 2 days overdue = +3 and +7, 3 to 7 days = +7 only, more than 7 days = none. The CRM "Cobranças" tab lists every charge, newest first, 50 at a time with "Ver mais", with "Em aberto" (all open charges, sent or not) and "Vencido" (open, sent and past due) totals, status filters and search by customer name; clicking the name opens the customer file on its Charges tab. Board cards show "Cobrança em aberto" or "Cobrança vencida". Claude can list charges (listar_cobrancas: status filter, name search, up to 50 per page, totals, reminders sent; never receipt images) but cannot create, send, settle, cancel charges, stop reminders, nor change the Pix data.
+Charges lets any business bill a customer a one-off amount over WhatsApp with Pix, from the "Cobranças" tab of the customer's file in the CRM. First fill in the payment receiver card in the Business Profile (account holder, CPF/CNPJ, Pix keys and card statement names); only the first Pix key goes in the message. "Nova cobrança" asks for amount (R$ 1 to R$ 100,000), due date and description (up to 140 characters; health businesses must not describe the procedure), and "Criar e enviar" sends it at once. Statuses: not sent, awaiting payment, overdue, paid (by hand or by receipt) and cancelled; open charges can be resent, marked as paid or cancelled (the customer is not told). A charge stays "not sent" when the customer has no WhatsApp number, receiver data is missing, WhatsApp is disconnected, the monthly message quota is used up, or, on the official WhatsApp, the customer has not written in 24 hours while Meta still reviews the message model (a new message from the customer opens the window). Limits: 30 charges per hour per business and 5 per customer in 24 hours. On the Negócio and Rede plans, a receipt image sent in the chat settles the charge after checking receiver, amount (not lower), date (not before the charge, not in the future) and reuse; "Paid by someone else" is accepted but flagged, and "Undo settlement" reopens it. On Solo the owner marks it paid. The AI knows the open charges, never confirms a payment itself and does not negotiate. Every sent charge reminds the customer automatically 1 day before the due date, on the due date, and 3 and 7 days after (at most 4, only between 9am and 6pm in the business time zone, the first at least 12 hours after the charge was sent; a missed slot is not sent late in bulk). The text says "is due tomorrow", "is due today" or "was due on ... and is still open", with the plan's last sentence; outside the official WhatsApp 24-hour window a Meta-approved reminder message model is used (submitted automatically on the first charge sent through the official WhatsApp; until approved that reminder is skipped, never replaced by the charge text). No reminders for customers who replied SAIR, nor for paid, cancelled or stopped charges; at most one reminder per customer per day, up to 20 per business per round; each reminder counts as one plan message and, on the unofficial WhatsApp, in the daily sending limit shared with campaigns. The customer file shows "Lembretes: X de 4, próximo em dd/mm" and the reason a reminder was skipped; "Parar lembretes" stops them for good (to restart, cancel and create a new charge). Charges open and sent on release day (18/11/2026) got the remaining slots: not yet due = all remaining, 0 to 2 days overdue = +3 and +7, 3 to 7 days = +7 only, more than 7 days = none. The CRM "Cobranças" tab lists every charge, newest first, 50 at a time with "Ver mais", with "Em aberto" (all open charges, sent or not) and "Vencido" (open, sent and past due) totals, status filters and search by customer name or phone (with or without the 9th digit); a "Pagamentos" / "Respostas" switch shows payments or answer requests (totals are always payments); clicking the name opens the customer file on its Charges tab. "Nova cobrança" also offers "Uma resposta": charge a contact (usually a supplier, see the contact type in crm.md) for an answer instead of money, such as artwork, confirmation that goods were shipped or a signed document. Fill in "O que você pede", "Resposta esperada" (what the AI looks for) and "Prazo" (up to 200 characters each, no Pix data needed, all plans). The contact gets the request and the same reminder calendar as charges. When the contact's written reply matches the expected answer, the AI thanks them, marks it "Respondida", stops the reminders and alerts the owner on WhatsApp with the accepted sentence; when it does not, the AI reminds what is missing. A file or image alone never closes it (the AI asks for written confirmation), and only messages written after the request was sent count. Buttons: Reenviar, Marcar como respondida, Cancelar, Parar lembretes and, on answered requests, Reabrir (only a new message closes it again). Sending and reminders count as plan messages. Board cards show "Cobrança em aberto" or "Cobrança vencida". Claude can list charges (listar_cobrancas: status filter, name search, up to 50 per page, totals, reminders sent; never receipt images) but cannot create, send, settle, cancel charges, stop reminders, nor change the Pix data.

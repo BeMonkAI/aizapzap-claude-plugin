@@ -3,8 +3,8 @@ Todas as telas do menu, com o link e um resumo. Base: https://aizapzap.com.br
 
 - [Dashboard (Início)](inicio.md): resumo do dia, uso de mensagens e gráficos. https://aizapzap.com.br/dashboard
 - [Perfil do Estabelecimento](perfil.md): dados do negócio, horários, entrega, políticas e tipo de negócio. https://aizapzap.com.br/dashboard/profile
-- [CRM](crm.md): clientes em lista e em quadro por etapa, etiquetas, ficha, importação, consentimento de novidades, rotinas de mensagens automáticas e a aba "Cobranças" com todas as cobranças. https://aizapzap.com.br/dashboard/customers
-- [Cobranças](cobrancas.md): cobrança avulsa por Pix pelo WhatsApp, criada na ficha do cliente, aba "Cobranças"; lembretes automáticos ao cliente; baixa à mão ou pelo comprovante (Negócio e Rede); visão geral na aba "Cobranças" do CRM; consulta pelo Claude. Dados de recebimento no Perfil. https://aizapzap.com.br/dashboard/customers
+- [CRM](crm.md): clientes em lista e em quadro por etapa, etiquetas, tipo de contato (cliente, fornecedor ou outro), ficha, importação, consentimento de novidades, rotinas de mensagens automáticas e a aba "Cobranças" com todas as cobranças. https://aizapzap.com.br/dashboard/customers
+- [Cobranças](cobrancas.md): cobrança avulsa por Pix pelo WhatsApp, criada na ficha do cliente, aba "Cobranças"; cobrança de uma resposta (arte, envio, documento assinado) que a IA encerra sozinha; lembretes automáticos ao cliente; baixa à mão ou pelo comprovante (Negócio e Rede); visão geral na aba "Cobranças" do CRM; consulta pelo Claude. Dados de recebimento no Perfil. https://aizapzap.com.br/dashboard/customers
 - [Responsável pela marca](contatos.md): na agência, cada pessoa que fala por uma marca é um cliente do CRM ligado a ela, na ficha do cliente. https://aizapzap.com.br/dashboard/customers
 - [Cardápio / Serviços / Mídia kit / Catálogo](catalogo.md): o que a IA sabe e pode vender. https://aizapzap.com.br/dashboard/knowledge
 - [WhatsApp](whatsapp.md): conexão, escalonamento e comportamento da IA. https://aizapzap.com.br/dashboard/whatsapp
