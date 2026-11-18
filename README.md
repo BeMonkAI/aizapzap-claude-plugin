@@ -117,7 +117,8 @@ Se a sua conta tem vários estabelecimentos, o Claude pergunta qual você quer m
 
 Por segurança, estas ações continuam só no painel do AIZapZap:
 
-- cobrança, plano e créditos;
+- criar, enviar, dar baixa ou cancelar cobranças de clientes e parar os lembretes delas (consultar as cobranças o Claude pode);
+- plano e créditos;
 - conectar ou desconectar o WhatsApp e o Instagram;
 - convidar ou remover pessoas da conta;
 - apagar qualquer dado;
