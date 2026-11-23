@@ -1,6 +1,9 @@
 # Guia do painel AIZapZap
 Todas as telas do menu, com o link e um resumo. Base: https://aizapzap.com.br
 
+## Versão do plugin
+O plugin não se atualiza sozinho. Para saber a versão instalada e a mais recente, pergunte "qual a versão do meu plugin AIZapZap?" (o Claude usa status_da_conta) ou abra /plugin. A versão mais recente também aparece no painel, em Integrações, no cartão "Administre sua conta com o Claude". Para atualizar, rode /plugin marketplace update aizapzap e depois /reload-plugins. Quem usa o conector do claude.ai não tem plugin e está sempre atualizado; o vídeo de como conectar fica na aba "Conector (claude.ai)" desse cartão, com botão para baixar.
+
 - [Dashboard (Início)](inicio.md): resumo do dia, uso de mensagens e gráficos. https://aizapzap.com.br/dashboard
 - [Perfil do Estabelecimento](perfil.md): dados do negócio, horários, entrega, políticas e tipo de negócio. https://aizapzap.com.br/dashboard/profile
 - [CRM](crm.md): clientes em lista e em quadro por etapa, etiquetas, tipo de contato (cliente, fornecedor ou outro), ficha, importação, consentimento de novidades, rotinas de mensagens automáticas e a aba "Cobranças" com todas as cobranças. https://aizapzap.com.br/dashboard/customers
