@@ -23,7 +23,7 @@ Escolhe o que a IA faz pelo seu negócio no WhatsApp e como ela fala. Você liga
 - **Existe um assistente de configuração?** Sim, o botão "Assistente" guia a configuração inicial.
 
 ## Pelo Claude
-ver_agentes, configurar_agente e atualizar_ai_settings. Para a IA não responder ninguém: atualizar_ai_settings com record_only: true. Triagem, proteção de escopo e estilo não se desligam por configurar_agente.
+ver_agentes, configurar_agente e atualizar_ai_settings. Para a IA não responder ninguém: atualizar_ai_settings com record_only: true (ver_agentes mostra se está ligado em modo_so_registro). Triagem, proteção de escopo e estilo não se desligam por configurar_agente.
 
 ## English
 AI Agents controls what the AI does on WhatsApp (answer questions, take orders, book, collect customer details, hand over to you, gather feedback) and how it speaks. You set tone and limits, test in a chat and then click Save All. Hand-over needs a contact set on the WhatsApp page. To stop the AI answering anyone, turn on Record-only mode (atualizar_ai_settings with record_only: true): turning every function off still leaves triage answering.
