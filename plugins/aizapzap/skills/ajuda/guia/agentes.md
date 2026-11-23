@@ -14,6 +14,7 @@ Escolhe o que a IA faz pelo seu negócio no WhatsApp e como ela fala. Você liga
 6. Clique em "Salvar Tudo".
 
 ## Dúvidas comuns
+- **Como faço a IA parar de responder todo mundo?** Ligue o "Modo só registro", no topo da página, e clique em "Salvar Tudo". Desligar as funções não basta: a triagem e a proteção de escopo continuam respondendo. Com o modo ligado, a IA não responde ninguém e as conversas continuam gravadas (o que o cliente manda e o que você envia pelo número), para ler no painel e no Claude. Conversas de antes de ligar o modo não são importadas.
 - **O que é o tempo de resposta?** A espera da IA antes de responder. 30 segundos é o recomendado. 120 segundos dá prioridade à resposta humana.
 - **O botão Salvar recusa com "Falta o contato".** Com "Passa pra você" ligado, é preciso um contato cadastrado na página WhatsApp. Cadastre ou desligue a função.
 - **O que faz "Restaurar Padrões"?** Volta aos valores padrão, mas só vale depois de clicar em "Salvar Tudo".
@@ -22,7 +23,7 @@ Escolhe o que a IA faz pelo seu negócio no WhatsApp e como ela fala. Você liga
 - **Existe um assistente de configuração?** Sim, o botão "Assistente" guia a configuração inicial.
 
 ## Pelo Claude
-ver_agentes, configurar_agente e atualizar_ai_settings.
+ver_agentes, configurar_agente e atualizar_ai_settings. Para a IA não responder ninguém: atualizar_ai_settings com record_only: true. Triagem, proteção de escopo e estilo não se desligam por configurar_agente.
 
 ## English
-AI Agents controls what the AI does on WhatsApp (answer questions, take orders, book, collect customer details, hand over to you, gather feedback) and how it speaks. You set tone and limits, test in a chat and then click Save All. Hand-over needs a contact set on the WhatsApp page.
+AI Agents controls what the AI does on WhatsApp (answer questions, take orders, book, collect customer details, hand over to you, gather feedback) and how it speaks. You set tone and limits, test in a chat and then click Save All. Hand-over needs a contact set on the WhatsApp page. To stop the AI answering anyone, turn on Record-only mode (atualizar_ai_settings with record_only: true): turning every function off still leaves triage answering.
