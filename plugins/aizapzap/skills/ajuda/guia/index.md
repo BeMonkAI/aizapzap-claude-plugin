@@ -20,7 +20,7 @@ O plugin não se atualiza sozinho. Para saber a versão instalada e a mais recen
 - [Influenciadores](influenciadores.md): códigos, links e resultados por influenciador. https://aizapzap.com.br/dashboard/influencers
 - [Minha marca](minha-marca.md): kit de marca e artes prontas para postar. https://aizapzap.com.br/dashboard/brand
 - [Gestão](gestao.md): cronograma do mês, artes, envio para aprovação, kanban e cards de ajuste da agência; o andamento também dá para consultar pelo Claude. https://aizapzap.com.br/dashboard/gestao
-- [Marcas](marcas.md): marcas atendidas pela agência, responsáveis, kit, briefing e documentos. https://aizapzap.com.br/dashboard/brands
+- [Marcas](marcas.md): marcas atendidas pela agência, responsáveis, kit, briefing, documentos e newsletter de tendências por e-mail (por marca ou "Para mim"). https://aizapzap.com.br/dashboard/brands
 - [Processo](processo.md): etapas, briefing, materiais, ajustes e alertas da agência. https://aizapzap.com.br/dashboard/process
 - [Campanhas](campanhas.md): mensagens em massa para quem aceitou novidades. https://aizapzap.com.br/dashboard/campaigns
 - [Agentes IA](agentes.md): funções da IA, jeito de falar e limites. https://aizapzap.com.br/dashboard/agents
