@@ -22,6 +22,7 @@ O plugin não se atualiza sozinho. Para saber a versão instalada e a mais recen
 - [Gestão](gestao.md): cronograma do mês, artes, envio para aprovação, kanban e cards de ajuste da agência; o andamento também dá para consultar pelo Claude. https://aizapzap.com.br/dashboard/gestao
 - [Marcas](marcas.md): marcas atendidas pela agência, responsáveis, kit, briefing, documentos e newsletter de tendências por e-mail (por marca ou "Para mim"). https://aizapzap.com.br/dashboard/brands
 - [Processo](processo.md): etapas, briefing, materiais, ajustes e alertas da agência. https://aizapzap.com.br/dashboard/process
+- [Formulários](formularios.md): pesquisas, fichas e inscrições que o cliente responde pelo WhatsApp ou por link, com envio manual (até 200 clientes de uma vez pela lista do CRM) ou automático (depois do atendimento, do pedido ou da primeira reserva confirmada), modelos prontos, alertas, dado sensível e o registro "Acessos às respostas". https://aizapzap.com.br/dashboard/formularios
 - [Campanhas](campanhas.md): mensagens em massa para quem aceitou novidades. https://aizapzap.com.br/dashboard/campaigns
 - [Agentes IA](agentes.md): funções da IA, jeito de falar e limites. https://aizapzap.com.br/dashboard/agents
 - [Conversas](conversas.md): histórico dos atendimentos da IA (plano Pro). https://aizapzap.com.br/dashboard/logs
