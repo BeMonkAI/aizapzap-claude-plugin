@@ -15,9 +15,10 @@ Agenda (abas Agenda, Equipe, Tipos, Config, Locais):
 Reservas (restaurante):
 1. Clique em "Nova reserva" e informe nome, telefone, pessoas, data e hora.
 2. Em "Próximas reservas", use "Confirmar", "Sentou" ou cancelar.
+3. Com mesas cadastradas, cada reserva mostra a mesa ou o selo "sem mesa", e "Trocar mesa" muda a mesa. Veja [Mesas](mesas.md).
 
 ## Dúvidas comuns
-- **Automático ou semi-automático?** No automático o agendamento entra direto como "Agendado". No semi-automático fica pendente até você aprovar.
+- **Automático ou semi-automático?** No automático o agendamento entra direto como "Agendado". No semi-automático fica pendente até você aprovar. Só pedido pendente pode ser aprovado ou recusado: um pedido já recusado ou cancelado não volta.
 - **E se eu recusar um pedido?** Você informa o motivo e o cliente é avisado pelo WhatsApp.
 - **Posso impedir a IA de criar horários?** Sim. Desligue "Criar novo atendimento" e ela só remarca ou cancela os existentes.
 - **Com mais de um profissional?** A IA pergunta com quem o cliente quer atender. Com um só, associa automaticamente.
@@ -25,7 +26,7 @@ Reservas (restaurante):
 - **Limite de equipe?** Fora do plano Pro, o cadastro de mais profissionais é bloqueado com o aviso "Upgrade para Pro".
 
 ## Pelo Claude
-listar_reservas, listar_equipe, salvar_profissional, listar_servicos e salvar_servico. Aprovar, recusar, iniciar atendimento e enviar lembretes: só pelo painel.
+listar_reservas (com as mesas de cada reserva no restaurante), trocar_mesa_reserva, listar_equipe, salvar_profissional, listar_servicos e salvar_servico. Aprovar, recusar, iniciar atendimento e enviar lembretes: só pelo painel.
 
 ## English
-Schedule (Reservations for restaurants) shows bookings made by the AI or by you. It also manages team, service types, scheduling rules and locations. Semi-automatic mode holds bookings for your approval, and rejections notify the customer on WhatsApp.
+Schedule (Reservations for restaurants) shows bookings made by the AI or by you. It also manages team, service types, scheduling rules and locations. Semi-automatic mode holds bookings for your approval, and rejections notify the customer on WhatsApp. Only a pending request can be approved or rejected. With tables set up, each restaurant reservation shows its table and "Trocar mesa" swaps it (see Mesas).
