@@ -13,6 +13,7 @@ O plugin não se atualiza sozinho. Para saber a versão instalada e a mais recen
 - [WhatsApp](whatsapp.md): conexão, escalonamento e comportamento da IA. https://aizapzap.com.br/dashboard/whatsapp
 - [Instagram](instagram.md): conectar o Direct para a IA responder. https://aizapzap.com.br/dashboard/instagram
 - [Agenda e Reservas](agenda.md): horários, equipe, tipos de atendimento e reservas de mesa. https://aizapzap.com.br/dashboard/schedule e https://aizapzap.com.br/dashboard/reservations
+- [Mesas](mesas.md): mesas do restaurante com lugares, dias de reserva e se podem juntar, tempo de mesa (igual todos os dias ou por dia) e troca de mesa da reserva. Cartão "Mesas" no Perfil. https://aizapzap.com.br/dashboard/profile
 - [Aulas](aulas.md): grade de aulas em grupo com vagas, fila de espera e confirmação de vaga. https://aizapzap.com.br/dashboard/classes
 - [Fila](fila.md): fila de espera de mesas do restaurante. https://aizapzap.com.br/dashboard/waitlist
 - [Pedidos](pedidos.md): pedidos fechados pela IA e andamento de cada um. https://aizapzap.com.br/dashboard/orders

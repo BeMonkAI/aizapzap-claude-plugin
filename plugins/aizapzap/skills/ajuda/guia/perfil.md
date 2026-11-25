@@ -21,10 +21,11 @@ Reúne os dados do negócio que a IA usa para atender: nome, telefone, bio, ende
 - **Para que serve a região de entrega?** A IA usa o texto para confirmar se o cliente está na área atendida.
 - **Como a IA decide quando responder?** Em "Horário de Atendimento da IA": sempre ativa, só fora do horário comercial, ou horário personalizado.
 - **Como ligar reservas no restaurante?** Ative "Aceitar reservas". Desligado, a aba Reservas some do menu e a IA foca em fila e cardápio.
+- **Onde cadastro as mesas do restaurante?** No cartão "Mesas", que aparece com "Aceitar reservas" ligado e tem o próprio botão "Salvar mesas". Veja [Mesas](mesas.md).
 - **Telefones e e-mails de administradores?** Em "Notificações" você cadastra quem recebe os avisos. O telefone vai no formato +5511999999999.
 
 ## Pelo Claude
-ver_perfil, atualizar_perfil e atualizar_horario. Trocar o tipo de negócio e mudar os dados de recebimento: só pelo painel.
+ver_perfil, atualizar_perfil e atualizar_horario. Mesas: listar_mesas e salvar_mesas (veja [Mesas](mesas.md)). Trocar o tipo de negócio e mudar os dados de recebimento: só pelo painel.
 
 ## English
 Business Profile holds the data the AI relies on: name, phone, bio, address, hours, delivery and pickup, policies and notifications. Changing the business type happens here and cancels open items the new type does not use. The "Dados de recebimento" card at the bottom (account holder, CPF/CNPJ, Pix keys, card statement names) has its own Save button and feeds customer charges and paid classes, for every business type; Claude cannot change it.
