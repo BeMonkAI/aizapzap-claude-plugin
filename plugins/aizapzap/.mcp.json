@@ -4,7 +4,7 @@
       "type": "http",
       "url": "${AIZAPZAP_MCP_URL:-https://tlcpebxdioeyzrjdtyes.supabase.co/functions/v1/mcp}",
       "headers": {
-        "X-AIZapZap-Plugin-Version": "2026.11.25.5"
+        "X-AIZapZap-Plugin-Version": "2026.11.26.2"
       }
     }
   }
